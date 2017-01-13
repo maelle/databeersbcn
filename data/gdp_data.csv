@@ -1,0 +1,256 @@
+country,gdp,pm25,continent
+Algeria,5484.066806,NA,Africa
+Benin,903.464924,NA,Africa
+Botswana,7123.339241,NA,Africa
+Burkina Faso,713.0638897,NA,Africa
+Burundi,286.0023359,NA,Africa
+Cabo Verde,3641.107656,NA,Africa
+Cameroon,1407.403413,NA,Africa
+Central African Republic,358.5378359,NA,Africa
+Chad,1024.668452,NA,Africa
+Comoros,810.0757668,NA,Africa
+"Congo, Dem. Rep.",442.3395394,NA,Africa
+"Congo, Rep.",3147.072161,NA,Africa
+Cote d'Ivoire,1545.942249,NA,Africa
+Djibouti,1813.596566,NA,Africa
+"Egypt, Arab Rep.",3198.695058,74,Africa
+Equatorial Guinea,18918.27683,NA,Africa
+Ethiopia,573.5659603,NA,Africa
+Gabon,10772.06175,NA,Africa
+Ghana,1441.636453,49,Africa
+Guinea,539.615775,NA,Africa
+Guinea-Bissau,567.8226103,NA,Africa
+Kenya,1358.262219,NA,Africa
+Lesotho,1034.185288,NA,Africa
+Liberia,457.8585865,NA,Africa
+Libya,6573.386737,NA,Africa
+Madagascar,449.4008297,NA,Africa
+Malawi,255.0445696,NA,Africa
+Mali,704.50744,NA,Africa
+Mauritania,1274.976949,NA,Africa
+Mauritius,10016.64864,37,Africa
+Morocco,3190.310444,NA,Africa
+Mozambique,585.6226826,NA,Africa
+Namibia,5408.243491,NA,Africa
+Niger,427.3732403,NA,Africa
+Nigeria,3203.296824,NA,Africa
+Rwanda,695.6892586,NA,Africa
+Sao Tome and Principe,1810.721567,NA,Africa
+Senegal,1067.131753,40,Africa
+Seychelles,15543.21478,NA,Africa
+Sierra Leone,765.9591973,NA,Africa
+Somalia,542.615884,NA,Africa
+South Africa,6482.821479,27,Africa
+South Sudan,1115.093516,NA,Africa
+Sudan,1875.843287,NA,Africa
+Swaziland,3477.149243,NA,Africa
+Tanzania,955.1413114,23,Africa
+Togo,635.0442677,NA,Africa
+Tunisia,4420.698435,NA,Africa
+Uganda,714.5673454,NA,Africa
+Zambia,1721.623274,NA,Africa
+Zimbabwe,931.198187,NA,Africa
+Afghanistan,633.569247,84,Asia Pacific
+Bahrain,24855.21564,57,Asia Pacific
+Bangladesh,1086.807079,79,Asia Pacific
+Bhutan,2560.501154,10,Asia Pacific
+Brunei Darussalam,40979.64194,5,Asia Pacific
+Cambodia,1094.576688,NA,Asia Pacific
+China,7590.016441,41,Asia Pacific
+Cyprus,27194.39184,23,Asia Pacific
+Fiji,5112.322117,NA,Asia Pacific
+India,1581.510703,59,Asia Pacific
+Indonesia,3491.929717,21,Asia Pacific
+"Iran, Islamic Rep.",5442.874771,76,Asia Pacific
+Japan,36194.41561,10,Asia Pacific
+Jordan,5422.570876,48,Asia Pacific
+Kazakhstan,12601.70348,NA,Asia Pacific
+"Korea, Rep.",27970.49515,23,Asia Pacific
+Kuwait,43593.70202,NA,Asia Pacific
+Kyrgyz Republic,1269.139335,NA,Asia Pacific
+Lao PDR,1793.470494,NA,Asia Pacific
+Lebanon,10057.88836,20,Asia Pacific
+Malaysia,11307.06495,13,Asia Pacific
+Maldives,7635.484151,9,Asia Pacific
+Marshall Islands,3529.748303,NA,Asia Pacific
+"Micronesia, Fed. Sts.",3057.091025,NA,Asia Pacific
+Mongolia,4129.373548,64,Asia Pacific
+Myanmar,1203.844663,30,Asia Pacific
+Nepal,701.6800634,50,Asia Pacific
+Oman,19309.61245,31,Asia Pacific
+Pakistan,1316.61411,101,Asia Pacific
+Palau,11879.67781,NA,Asia Pacific
+Papua New Guinea,2268.158717,NA,Asia Pacific
+Philippines,2872.512165,23,Asia Pacific
+Qatar,96732.40255,92,Asia Pacific
+Samoa,4172.2171,NA,Asia Pacific
+Saudi Arabia,24160.95854,28,Asia Pacific
+Singapore,56284.57841,17,Asia Pacific
+Solomon Islands,2024.190415,NA,Asia Pacific
+Sri Lanka,3819.158392,NA,Asia Pacific
+Tajikistan,1114.007483,NA,Asia Pacific
+Thailand,5977.380587,21,Asia Pacific
+Timor-Leste,1169.038707,NA,Asia Pacific
+Tonga,4113.993493,NA,Asia Pacific
+Turkmenistan,9031.51157,NA,Asia Pacific
+Tuvalu,3826.902901,NA,Asia Pacific
+United Arab Emirates,43962.71369,61,Asia Pacific
+Uzbekistan,2036.691723,NA,Asia Pacific
+Vanuatu,3147.963779,NA,Asia Pacific
+Vietnam,2052.294202,30,Asia Pacific
+NA,NA,NA,Asia Pacific
+NA,NA,NA,Asia Pacific
+NA,NA,NA,Asia Pacific
+Albania,4564.390339,NA,Eastern Europe
+Armenia,3873.533566,NA,Eastern Europe
+Azerbaijan,7884.190236,NA,Eastern Europe
+Belarus,8040.047557,16,Eastern Europe
+Bosnia and Herzegovina,4790.049658,33,Eastern Europe
+Bulgaria,7851.265428,41,Eastern Europe
+Croatia,13475.25896,NA,Eastern Europe
+Czech Republic,19529.84356,21,Eastern Europe
+Estonia,20161.58179,7,Eastern Europe
+Georgia,3669.981392,NA,Eastern Europe
+Hungary,14028.7221,27,Eastern Europe
+Latvia,15719.24202,16,Eastern Europe
+Lithuania,16506.86425,15,Eastern Europe
+"Macedonia, FYR",5455.594889,NA,Eastern Europe
+Moldova,2238.899885,NA,Eastern Europe
+Montenegro,7378.46395,NA,Eastern Europe
+Poland,14342.91271,27,Eastern Europe
+Romania,9996.670293,20,Eastern Europe
+Russian Federation,12735.9184,22,Eastern Europe
+Serbia,6152.867126,36,Eastern Europe
+Slovak Republic,18501.15286,26,Eastern Europe
+Slovenia,23999.13133,24,Eastern Europe
+Ukraine,3082.461447,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+NA,NA,NA,Eastern Europe
+Antigua and Barbuda,13432.07933,NA,Latin America &Carribean
+Argentina,12509.53112,16,Latin America &Carribean
+"Bahamas, The",22217.49414,NA,Latin America &Carribean
+Barbados,15366.29261,NA,Latin America &Carribean
+Belize,4831.177552,NA,Latin America &Carribean
+Bolivia,3124.080762,27,Latin America &Carribean
+Brazil,11384.41501,22,Latin America &Carribean
+Chile,14528.32581,28,Latin America &Carribean
+Colombia,7903.925773,24,Latin America &Carribean
+Costa Rica,10415.44438,17,Latin America &Carribean
+Dominica,7244.495847,NA,Latin America &Carribean
+Dominican Republic,6163.575857,NA,Latin America &Carribean
+Ecuador,6345.840725,18,Latin America &Carribean
+El Salvador,4119.992023,NA,Latin America &Carribean
+Grenada,8573.694067,NA,Latin America &Carribean
+Guatemala,3673.135843,33,Latin America &Carribean
+Guyana,4053.901904,NA,Latin America &Carribean
+Haiti,824.1597732,NA,Latin America &Carribean
+Honduras,2434.827162,32,Latin America &Carribean
+Jamaica,5104.767757,20,Latin America &Carribean
+Mexico,10325.64607,27,Latin America &Carribean
+Nicaragua,1963.054884,NA,Latin America &Carribean
+Panama,11948.85114,NA,Latin America &Carribean
+Paraguay,4712.823312,18,Latin America &Carribean
+Peru,6541.030564,38,Latin America &Carribean
+St. Kitts and Nevis,15510.39393,NA,Latin America &Carribean
+St. Lucia,7647.529548,NA,Latin America &Carribean
+St. Vincent and the Grenadines,6668.886105,NA,Latin America &Carribean
+Suriname,9680.115914,NA,Latin America &Carribean
+Trinidad and Tobago,21323.75471,NA,Latin America &Carribean
+Uruguay,16806.77327,18,Latin America &Carribean
+"Venezuela, RB",NA,26,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+NA,NA,NA,Latin America &Carribean
+Andorra,NA,16,Western Europe &Others
+Australia,61925.49606,6,Western Europe &Others
+Austria,51190.80825,19,Western Europe &Others
+Belgium,47352.94291,18,Western Europe &Others
+Canada,50235.38551,8,Western Europe &Others
+Denmark,60707.24937,16,Western Europe &Others
+Finland,49823.70137,7,Western Europe &Others
+France,42732.5665,18,Western Europe &Others
+Germany,47821.91746,17,Western Europe &Others
+Greece,21498.41801,17,Western Europe &Others
+Iceland,52004.48575,5,Western Europe &Others
+Ireland,54374.35224,9,Western Europe &Others
+Israel,37207.9945,23,Western Europe &Others
+Italy,34908.50097,25,Western Europe &Others
+Luxembourg,116664.2625,14,Western Europe &Others
+Malta,NA,12,Western Europe &Others
+Monaco,NA,13,Western Europe &Others
+Netherlands,52172.17123,17,Western Europe &Others
+New Zealand,44342.16442,7,Western Europe &Others
+Norway,97307.42159,8,Western Europe &Others
+Portugal,22132.17414,12,Western Europe &Others
+Spain,29767.35156,12,Western Europe &Others
+Sweden,58938.77275,9,Western Europe &Others
+Switzerland,85594.3266,15,Western Europe &Others
+Turkey,10515.00782,39,Western Europe &Others
+United Kingdom,46331.97741,14,Western Europe &Others
+United States,54629.49517,12,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others
+NA,NA,NA,Western Europe &Others

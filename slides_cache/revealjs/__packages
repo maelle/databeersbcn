@@ -1,0 +1,13 @@
+base
+dplyr
+ggplot2
+ggmap
+tidyr
+gganimate
+animation
+sp
+rworldmap
+viridis
+ggthemes
+albersusa
+maps
