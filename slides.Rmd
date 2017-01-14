@@ -243,7 +243,7 @@ dataPM25 <- mutate(data, PM25_year = floor(PM25_year)) %>%
 
 gg2 <- gg+
   geom_point(data = dataPM25,
-             aes(x=longitude, y=latitude, col = PM25_year), size=1)+
+             aes(x=longitude, y=latitude, col = PM25_year), size=2)+
   scale_color_viridis(option = "magma", discrete = TRUE) +
 theme(plot.title = element_text(lineheight=1, face="bold"))
 
@@ -251,9 +251,7 @@ theme(plot.title = element_text(lineheight=1, face="bold"))
 
 ## WHO 2014
 
-* *1 out of 8 deaths* in the world due to air pollution.
-
-* About *90%* in developping countries.
+*1 out of 8 deaths* in the world due to air pollution.
 
 ## GDP vs. PM2.5
 
@@ -294,6 +292,7 @@ gg2+
 ## Where are data?
 
 ![landscape](./landscape.png)
+
 
 ## OpenAQ {data-background-iframe="https://openaq.org/map#/map?_k=s4dwvy"}
 
