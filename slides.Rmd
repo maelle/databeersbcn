@@ -81,7 +81,7 @@ plotMap <- gg+
 
 ani.options(interval = 0.5, ani.width = 800, ani.height = 550)
 
-gg_animate(plotMap, "fireworks.gif")
+gg_animate(plotMap, "figs/fireworks.gif")
 ```
 
 # Small case-study: Delhi, India 
@@ -281,17 +281,17 @@ gg2+
 
 ## PM2.5 and mortality
 
-![mortality](./mortality.png)
+![mortality](./figs/mortality.png)
 
 # Fighting air inequality
 
 ## We need data!
 
-![mortality](./opendata.png)
+![mortality](./figs/opendata.png)
 
 ## Where are data?
 
-![landscape](./landscape.png)
+![landscape](./figs/landscape.png)
 
 
 ## OpenAQ {data-background-iframe="https://openaq.org/map#/map?_k=s4dwvy"}
@@ -303,7 +303,7 @@ gg2+
 ## Fireworks 4th of July
 
 
-![](./fireworks.gif)
+![](./figs/fireworks.gif)
 
 
 ## Thank you!
@@ -312,5 +312,5 @@ gg2+
 
 * https://github.com/masalmon/databeersbcn
 
-![](./surf.gif)
+![](./figs/surf.gif)
 

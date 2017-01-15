@@ -36,4 +36,4 @@ p <- ggplot(lala)+
         axis.ticks.x=element_blank())
 library("animation")
 ani.options(interval = 0.25, ani.width = 800, ani.height = 400)
-gg_animate(p, "surf.gif")
+gg_animate(p, "figs/surf.gif")

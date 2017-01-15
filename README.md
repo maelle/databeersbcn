@@ -23,11 +23,17 @@ See the slides themselves and the [data surfer code](code/make_data_surfer.R)
 
 * For the slides I used RMarkdown, in particular the revealjs package. See [this webpage](http://rmarkdown.rstudio.com/revealjs_presentation_format.html)
 
+* The location of the [data sources](http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/) of the WHO 2016 report was prepared [in this repo](https://github.com/masalmon/who_aq_db)
+
 * I use the R packages [ggplot2](https://github.com/tidyverse/ggplot2), [ggmap](https://github.com/dkahle/ggmap), [ggthemes](https://github.com/jrnold/ggthemes), [viridis](https://github.com/sjmgarnier/viridis).
 
 * I made the data surfer using once again ropenaq for the data, and ggplot2, [emojifont](https://github.com/GuangchuangYu/emojifont) and [gganimate](https://github.com/dgrtwo/gganimate) for the plot. 
 
 * For the fireworks viz I got the map from [this package](https://github.com/hrbrmstr/albersusa).
+
+# Acknowledgements
+
+I got data, pics and support from [Christa Hasenkopf](https://github.com/RocketD0g). Thanks, Christa!
 
 # Further resources
 
