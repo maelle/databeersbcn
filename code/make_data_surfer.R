@@ -1,7 +1,7 @@
 library("ggplot2")
 library("ropenaq")
 library("dplyr")
-library(emojifont)
+library("emojifont")
 library("gganimate")
 library("ggthemes")
 list.emojifonts()
