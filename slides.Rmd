@@ -1,7 +1,5 @@
 ---
-title: "Data is in the air, open air quality data!"
-author: 'Maëlle Salmon'
-date: '`r Sys.Date()`'
+title: 
 
 output: 
   revealjs::revealjs_presentation:
@@ -9,7 +7,10 @@ output:
     transition: slide
     reveal_options:
       autoSlide: 20000
+      slideNumber: true
 ---
+  
+## {data-background="figs/firstslide.png"}  
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE,
@@ -86,7 +87,7 @@ gg_animate(plotMap, "figs/fireworks.gif")
 
 # Small case-study: Delhi, India 
 
-## Delhi PM2.5 time series
+## Delhi PM2.5 daily time series 2013-2017
 
 ```{r delhi hourly, fig.width = 10, fig.height = 6}
 load("data/meas_india.RData")
@@ -106,7 +107,7 @@ table <- both %>% mutate(day = as.Date(dateLocal)) %>%
   theme(text = element_text(size=20)) 
 ```
 
-## Delhi PM2.5 vs. AQI categories
+## Delhi PM2.5 vs. Indian official health categories
 
 
 ```{r delhi daily, fig.width = 10, fig.height = 6}
@@ -308,9 +309,9 @@ gg2+
 
 ## Thank you!
 
-* https://openaq.org/
+* OpenAQ: https://openaq.org/
 
-* https://github.com/masalmon/databeersbcn
+* Code+data for the slides: https://github.com/masalmon/databeersbcn
 
 ![](./figs/surf.gif)
 
