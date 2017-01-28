@@ -2,6 +2,7 @@ base
 dplyr
 ggplot2
 ggmap
+ggflags
 tidyr
 gganimate
 animation

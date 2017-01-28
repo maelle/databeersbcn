@@ -7,7 +7,6 @@ output:
     transition: slide
     reveal_options:
       autoSlide: 20000
-      slideNumber: true
 ---
   
 ## {data-background="figs/firstslide.png"}  
@@ -21,6 +20,7 @@ knitr::opts_chunk$set(echo = FALSE,
 library("dplyr")
 library("ggmap")
 library("ggplot2")
+library("ggflags")
 library("tidyr")
 library("gganimate")
 library("animation")
@@ -98,7 +98,6 @@ table <- both %>% mutate(day = as.Date(dateLocal)) %>%
   summarize(PM25 = mean(value)) %>%
   ungroup()
 
-
  ggplot() +
   geom_line(data = table, aes(x = day,y = PM25), col = "goldenrod")+
   ylab(expression(paste("PM2.5 concentration (", mu, "g/",m^3,")")))+
@@ -107,7 +106,7 @@ table <- both %>% mutate(day = as.Date(dateLocal)) %>%
   theme(text = element_text(size=20)) 
 ```
 
-## Delhi PM2.5 vs. Indian official health categories
+## Delhi PM2.5 vs. Indian health categories
 
 
 ```{r delhi daily, fig.width = 10, fig.height = 6}
@@ -167,13 +166,18 @@ ggplot() +
 ```{r delhi beijing, fig.width = 10, fig.height = 6}
 
 load("data/meas_china.RData")
+
+both <- mutate(both, country = "in")
+meas_china <- mutate(meas_china, country = "cn")
 cities <- bind_rows(meas_china, both)
 cities <- cities %>% mutate(day = as.Date(dateLocal)) %>%
   filter(value > 0, value != 1985,
          day >= min(as.Date(meas_china$dateLocal))) %>%
   group_by(day, location, city) %>%
-  summarize(PM25 = mean(value)) %>%
+  summarize(PM25 = mean(value), country = country[1]) %>%
   ungroup()
+
+flags <- select(cities, country, city) %>% unique()
 
 ggplot() +
   geom_line(data = cities, aes(x = day,y = PM25),
@@ -183,23 +187,26 @@ ggplot() +
   ylab(expression(paste("PM2.5 concentration (", mu, "g/",m^3,")")))+
    xlab("Time (days)")+
    theme_hc(bgcolor = "darkunica") +   scale_colour_hc("darkunica") +
-  theme(text = element_text(size=20))
+  theme(text = element_text(size=20)) +
+  geom_flag(aes(country=country), x=16633, y=750,
+            data = flags, size = 15)
 ```
 
 ## Delhi PM2.5 vs. Barcelona PM2.5
 
 ```{r barcelona, fig.width = 10, fig.height = 6}
-poblenou <- readr::read_csv("data/poblenou.csv") %>% mutate(city = "Barcelona")
+poblenou <- readr::read_csv("data/poblenou.csv") %>% mutate(city = "Barcelona", country = NA)
 names(poblenou)[2] <- "PM25"
 delhi <- both%>% mutate(day = as.Date(dateLocal)) %>%
   filter(value > 0, value != 1985,
          day >= min(poblenou$day)) %>%
   group_by(day, location, city) %>%
-  summarize(PM25 = mean(value)) %>%
+summarize(PM25 = mean(value), country = country[1]) %>%
   ungroup() %>%
   filter(city == "Delhi")
 cities <- bind_rows(poblenou, delhi)
-
+flags <- select(cities, country, city) %>% unique()
+flags <- mutate(flags, label = ifelse(!is.na(country), NA, "?"))
 p <- ggplot() +
   geom_line(data = cities, aes(x = day,y = PM25),
             col = "goldenrod") +
@@ -209,7 +216,11 @@ p <- ggplot() +
    theme_hc(bgcolor = "darkunica") +   scale_colour_hc("darkunica") +
   theme(text = element_text(size=20))
 p+
-  facet_grid(city ~ .)
+  facet_grid(city ~ .)+
+  geom_label(aes(label=label), x=as.numeric(min(cities$day)), y=750,
+            data = flags, size = 12) +
+  geom_flag(aes(country=country), x=as.numeric(min(cities$day)), y=750,
+            data = flags, size = 15) 
 ```
 
 ## Delhi PM2.5 vs. Barcelona PM2.5
@@ -244,7 +255,7 @@ dataPM25 <- mutate(data, PM25_year = floor(PM25_year)) %>%
 
 gg2 <- gg+
   geom_point(data = dataPM25,
-             aes(x=longitude, y=latitude, col = PM25_year), size=2)+
+             aes(x=longitude, y=latitude), col = "goldenrod", size=2)+
   scale_color_viridis(option = "magma", discrete = TRUE) +
 theme(plot.title = element_text(lineheight=1, face="bold"))
 
@@ -264,8 +275,6 @@ ggplot(gdp_data) +
   geom_point(aes(gdp, pm25, col = continent), size = 3) +
   scale_color_viridis(discrete = TRUE)+
   ylab(expression(paste("Annual mean PM2.5 concentration (", mu, "g/",m^3,")"))) +
-  scale_x_log10()+
-  scale_y_log10()+
   xlab("GDP per capita (USD)") +
    theme_hc(bgcolor = "darkunica") +   scale_colour_hc("darkunica")+
   theme(legend.position = "bottom", legend.title = element_blank())+
@@ -301,7 +310,7 @@ gg2+
 
 # Fireworks 4th of July
 
-## Fireworks 4th of July
+## Fireworks 4th of July via PM2.5
 
 
 ![](./figs/fireworks.gif)
@@ -312,6 +321,8 @@ gg2+
 * OpenAQ: https://openaq.org/
 
 * Code+data for the slides: https://github.com/masalmon/databeersbcn
+
+* Thanks to Christa Hasenkopf @Open_AQ for her support!
 
 ![](./figs/surf.gif)
 

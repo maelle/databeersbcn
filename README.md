@@ -25,7 +25,9 @@ See the slides themselves and the [data surfer code](code/make_data_surfer.R)
 
 * The location of the [data sources](http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/) of the WHO 2016 report was prepared [in this repo](https://github.com/masalmon/who_aq_db)
 
-* I use the R packages [ggplot2](https://github.com/tidyverse/ggplot2), [ggmap](https://github.com/dkahle/ggmap), [ggthemes](https://github.com/jrnold/ggthemes), [viridis](https://github.com/sjmgarnier/viridis).
+* I use the R packages [ggplot2](https://github.com/tidyverse/ggplot2), [ggmap](https://github.com/dkahle/ggmap), [ggthemes](https://github.com/jrnold/ggthemes),
+[ggflags](https://github.com/baptiste/ggflags),
+[viridis](https://github.com/sjmgarnier/viridis).
 
 * I made the data surfer using once again ropenaq for the data, and ggplot2, [emojifont](https://github.com/GuangchuangYu/emojifont) and [gganimate](https://github.com/dgrtwo/gganimate) for the plot. 
 
