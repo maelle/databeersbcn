@@ -1,7 +1,7 @@
 ---
 title: 
 
-output: 
+output :
   revealjs::revealjs_presentation:
     theme: league
     transition: slide
@@ -308,7 +308,7 @@ gg2+
 
 
 
-# Fireworks 4th of July
+# PM2.5 USA 4th of July
 
 ## Fireworks 4th of July via PM2.5
 
@@ -318,11 +318,9 @@ gg2+
 
 ## Thank you!
 
-* OpenAQ: https://openaq.org/
+* https://openaq.org/ -- Thanks to Christa Hasenkopf
 
-* Code+data for the slides: https://github.com/masalmon/databeersbcn
-
-* Thanks to Christa Hasenkopf @Open_AQ for her support!
+* https://github.com/masalmon/databeersbcn
 
 ![](./figs/surf.gif)
 
